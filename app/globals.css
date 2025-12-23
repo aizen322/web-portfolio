@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Light mode (default) */
+:root {
+  --background: #fafafa;
+  --foreground: #171717;
+  --card-background: #ffffff;
+  --card-border: #e5e5e5;
+  --muted: #737373;
+  --muted-foreground: #a3a3a3;
+  --accent: #6366f1;
+  --accent-foreground: #ffffff;
+}
+
+/* Dark mode */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --card-background: #171717;
+  --card-border: #262626;
+  --muted: #a3a3a3;
+  --muted-foreground: #737373;
+  --accent: #818cf8;
+  --accent-foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card-background);
+  --color-card-border: var(--card-border);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Gradient accent utility */
+.gradient-accent {
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Focus ring for accessibility */
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Prevent FOUC */
+html:not(.light):not(.dark) {
+  visibility: hidden;
+}
