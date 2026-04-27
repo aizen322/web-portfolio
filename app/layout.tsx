@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Joseph Valesna | Automation Specialist for Growing Teams",
+  title: "Joseph Alesna | Automation Specialist for Growing Teams",
   description:
     "I build reliable workflows using n8n, Make, and Zapier to eliminate repetitive work and streamline operations. Hire an automation specialist to scale your business.",
   keywords: [
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     "no-code automation",
     "freelance automation",
   ],
-  authors: [{ name: "Joseph Valesna" }],
-  creator: "Joseph Valesna",
+  authors: [{ name: "Joseph Alesna" }],
+  creator: "Joseph Alesna",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://josephvalesna.com",
-    siteName: "Joseph Valesna - Automation Specialist",
-    title: "Joseph Valesna | Automation Specialist for Growing Teams",
+    url: "https://jvalesna.vercel.app/",
+    siteName: "Joseph Alesna - Automation Specialist",
+    title: "Joseph Alesna | Automation Specialist for Growing Teams",
     description:
       "I build reliable workflows using n8n, Make, and Zapier to eliminate repetitive work and streamline operations.",
     images: [
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Joseph Valesna - Automation Specialist",
+        alt: "Joseph Alesna - Automation Specialist",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Joseph Valesna | Automation Specialist for Growing Teams",
+    title: "Joseph Alesna | Automation Specialist for Growing Teams",
     description:
       "I build reliable workflows using n8n, Make, and Zapier to eliminate repetitive work and streamline operations.",
     images: ["/og-image.jpg"],
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  metadataBase: new URL("https://josephvalesna.com"),
+  metadataBase: new URL("https://jvalesna.vercel.app/"),
 };
 
 // Script to prevent FOUC by setting theme before render
