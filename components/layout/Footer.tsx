@@ -10,7 +10,7 @@ export function Footer() {
           </p>
           <div className="flex items-center gap-6">
             <a
-              href="https://linkedin.com/in/josephvalesna"
+              href="https://www.linkedin.com/in/joseph-vincent-alesna"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted hover:text-foreground transition-colors"
@@ -21,7 +21,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href="https://github.com/josephvalesna"
+              href="https://github.com/aizen322"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted hover:text-foreground transition-colors"
@@ -32,7 +32,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href="mailto:hello@josephvalesna.com"
+              href="mailto:josephvalesna@gmail.com"
               className="text-muted hover:text-foreground transition-colors"
               aria-label="Send email"
             >
