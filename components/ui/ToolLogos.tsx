@@ -26,13 +26,6 @@ export function MakeLogo({ className = 'w-5 h-5' }: LogoProps) {
   );
 }
 
-export function GHLLogo({ className = 'w-5 h-5' }: LogoProps) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 11.08 5.1 7.63 12 4.18zM4 8.73l7 3.5v7.04l-7-3.5V8.73zm9 10.54v-7.04l7-3.5v7.04l-7 3.5z"/>
-    </svg>
-  );
-}
 
 export function JavaScriptLogo({ className = 'w-5 h-5' }: LogoProps) {
   return (
@@ -79,8 +72,6 @@ export const toolLogos: Record<string, React.FC<LogoProps>> = {
   'n8n': N8nLogo,
   'Zapier': ZapierLogo,
   'Make': MakeLogo,
-  'GHL': GHLLogo,
-  'GoHighLevel': GHLLogo,
   'JavaScript': JavaScriptLogo,
   'React': ReactLogo,
   'Tailwind CSS': TailwindLogo,

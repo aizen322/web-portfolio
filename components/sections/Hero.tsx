@@ -33,7 +33,7 @@ export function Hero() {
           <div className="shrink-0">
             <div className="relative w-52 h-52 md:w-64 md:h-64 lg:w-72 lg:h-72">
               <Image
-                src="/placeholder-avatar.svg"
+                src="/images/profile/profile.png"
                 alt="Joseph Valesna, Automation Specialist - professional headshot"
                 fill
                 className="rounded-full object-cover"
@@ -51,7 +51,7 @@ export function Hero() {
               <span className="gradient-text">for Growing Teams</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted max-w-2xl mb-10 leading-relaxed">
-              I build reliable workflows using n8n, Make, and Zapier to eliminate 
+              I build reliable workflows using n8n, Make, and Zapier to eliminate
               repetitive work and streamline operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

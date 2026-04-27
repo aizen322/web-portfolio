@@ -24,7 +24,6 @@ export const metadata: Metadata = {
     "Make",
     "workflow automation",
     "API integrations",
-    "GoHighLevel",
     "business automation",
     "no-code automation",
     "freelance automation",

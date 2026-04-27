@@ -5,7 +5,6 @@ const techStack = [
   { name: 'n8n', category: 'Automation' },
   { name: 'Zapier', category: 'Automation' },
   { name: 'Make', category: 'Automation' },
-  { name: 'GoHighLevel', category: 'Automation' },
   { name: 'JavaScript', category: 'Development' },
   { name: 'React', category: 'Development' },
   { name: 'Tailwind CSS', category: 'Development' },
