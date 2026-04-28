@@ -84,10 +84,10 @@ export const projects: Project[] = [
   {
     id: '10',
     title: 'Facebook AI Agent',
-    problem: 'Manually creating and posting content on Facebook is time-consuming, inconsistent, and lacks personalization or context from existing data',
-    solution: 'AI-powered agent that processes incoming data, generates context-aware content, and automatically publishes posts to Facebook',
+    problem: 'Responding to customer inquiries on Facebook manually leads to slow replies, missed messages, and inconsistent communication',
+    solution: 'AI-powered chatbot that processes incoming messages, retrieves relevant information, and generates instant, context-aware responses automatically',
     tool: 'n8n',
-    result: 'Automated, intelligent Facebook content creation and posting with minimal manual effort',
+    result: '24/7 automated customer support with fast, consistent, and intelligent responses',
     image: '/images/projects/Facebook AI Agent.png',
   },
   {
